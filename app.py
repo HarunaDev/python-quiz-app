@@ -34,7 +34,17 @@ quiz = {
 score = 0
 
 # loop through dictionary
+for key, value in quiz.items():
+    print(value["question"])
+    answer = input("Enter Answer: ")
 
+    if answer.lower() == value["answer"].lower():
+        print("Correct")
+        score += 1
+        print(f"Your score is {score}")
+    else:
+        print("Incorrect")
+        print(f"Your score is {score}")
 # display each question to the user and allow them answer
 
 # show user if they are right or wrong
