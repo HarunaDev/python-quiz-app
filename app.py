@@ -27,10 +27,11 @@ quiz = {
     "question_7": {
         "question": "What is the capital of Japan",
         "answer": "Tokyo"
-    },
+    }
 }
 
 # declare a variable that tracks score of user
+score = 0
 
 # loop through dictionary
 
