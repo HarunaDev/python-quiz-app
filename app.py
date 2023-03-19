@@ -51,3 +51,6 @@ for key, value in quiz.items():
         print(f"Your score is {score}\n")
 
 # show final result when quiz is completed
+print(f"You got {score} out of {len(quiz)} questions correctly")
+
+print(f"Your percentage is {int(score / len(quiz) * 100)}%")  
